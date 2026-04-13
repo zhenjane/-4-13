@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>各式問題網站</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>各式問題解答網站</h1>
+        <p>歡迎來到這個網站，專門解答各式各樣的問題！</p>
+    </header>
+    <main>
+        <section id="question-form">
+            <h2>提出你的問題</h2>
+            <form id="questionForm">
+                <label for="question">你的問題：</label>
+                <textarea id="question" name="question" rows="4" placeholder="請輸入你的問題..."></textarea>
+                <button type="submit">提交問題</button>
+            </form>
+        </section>
+        <section id="answers">
+            <h2>答案</h2>
+            <div id="answerDisplay"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 各式問題網站</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
